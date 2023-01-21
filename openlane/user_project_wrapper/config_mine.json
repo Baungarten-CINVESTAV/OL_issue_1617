@@ -1,0 +1,15 @@
+{
+    "DESIGN_NAME": "user_project_wrapper",
+    "VERILOG_FILES": ["dir::../../verilog/rtl/defines.v", "dir::../../verilog/rtl/user_project_wrapper.v"],
+    "CLOCK_PERIOD": 20,
+    "CLOCK_PORT": "user_clock2",
+    "FP_PDN_MACRO_HOOKS": "fpga_top vccd1 vssd1 vccd1 vssd1",
+    "MACRO_PLACEMENT_CFG": "dir::macro.cfg",
+    "VERILOG_FILES_BLACKBOX": ["dir::../../verilog/rtl/defines.v", "dir::../../verilog/rtl/FPGA_Files/SRC/fpga_top.v"],
+    "EXTRA_LEFS": "dir::../../lef/fpga_top.lef",
+    "EXTRA_GDS_FILES": "dir::../../gds/fpga_top.gds",
+    
+    "FP_PDN_IRDROP":0,
+    "QUIT_ON_MAGIC_DRC:0
+    
+}

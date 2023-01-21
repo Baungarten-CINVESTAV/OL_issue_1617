@@ -1,0 +1,165 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1674174417
+<< obsli1 >>
+rect 1104 2159 38824 37553
+<< obsm1 >>
+rect 14 1300 39362 37584
+<< metal2 >>
+rect 3238 39200 3294 39800
+rect 8390 39200 8446 39800
+rect 13542 39200 13598 39800
+rect 18694 39200 18750 39800
+rect 23846 39200 23902 39800
+rect 28998 39200 29054 39800
+rect 34150 39200 34206 39800
+rect 39302 39200 39358 39800
+rect 18 200 74 800
+rect 5170 200 5226 800
+rect 10322 200 10378 800
+rect 15474 200 15530 800
+rect 20626 200 20682 800
+rect 25778 200 25834 800
+rect 30930 200 30986 800
+rect 36082 200 36138 800
+<< obsm2 >>
+rect 20 39144 3182 39200
+rect 3350 39144 8334 39200
+rect 8502 39144 13486 39200
+rect 13654 39144 18638 39200
+rect 18806 39144 23790 39200
+rect 23958 39144 28942 39200
+rect 29110 39144 34094 39200
+rect 34262 39144 39246 39200
+rect 20 856 39356 39144
+rect 130 734 5114 856
+rect 5282 734 10266 856
+rect 10434 734 15418 856
+rect 15586 734 20570 856
+rect 20738 734 25722 856
+rect 25890 734 30874 856
+rect 31042 734 36026 856
+rect 36194 734 39356 856
+<< metal3 >>
+rect 200 38088 800 38208
+rect 39200 34008 39800 34128
+rect 200 32648 800 32768
+rect 39200 28568 39800 28688
+rect 200 27208 800 27328
+rect 39200 23128 39800 23248
+rect 200 21768 800 21888
+rect 39200 17688 39800 17808
+rect 200 16328 800 16448
+rect 39200 12248 39800 12368
+rect 200 10888 800 11008
+rect 39200 6808 39800 6928
+rect 200 5448 800 5568
+rect 39200 1368 39800 1488
+<< obsm3 >>
+rect 800 34208 39200 37569
+rect 800 33928 39120 34208
+rect 800 32848 39200 33928
+rect 880 32568 39200 32848
+rect 800 28768 39200 32568
+rect 800 28488 39120 28768
+rect 800 27408 39200 28488
+rect 880 27128 39200 27408
+rect 800 23328 39200 27128
+rect 800 23048 39120 23328
+rect 800 21968 39200 23048
+rect 880 21688 39200 21968
+rect 800 17888 39200 21688
+rect 800 17608 39120 17888
+rect 800 16528 39200 17608
+rect 880 16248 39200 16528
+rect 800 12448 39200 16248
+rect 800 12168 39120 12448
+rect 800 11088 39200 12168
+rect 880 10808 39200 11088
+rect 800 7008 39200 10808
+rect 800 6728 39120 7008
+rect 800 5648 39200 6728
+rect 880 5368 39200 5648
+rect 800 1568 39200 5368
+rect 800 1395 39120 1568
+<< metal4 >>
+rect 4208 2128 4528 37584
+rect 19568 2128 19888 37584
+rect 34928 2128 35248 37584
+<< labels >>
+rlabel metal3 s 39200 23128 39800 23248 6 ccff_head
+port 1 nsew signal input
+rlabel metal2 s 10322 200 10378 800 6 ccff_tail
+port 2 nsew signal output
+rlabel metal3 s 200 32648 800 32768 6 gfpga_pad_GPIO_PAD[0]
+port 3 nsew signal bidirectional
+rlabel metal3 s 200 5448 800 5568 6 gfpga_pad_GPIO_PAD[1]
+port 4 nsew signal bidirectional
+rlabel metal2 s 30930 200 30986 800 6 gfpga_pad_GPIO_PAD[2]
+port 5 nsew signal bidirectional
+rlabel metal3 s 200 16328 800 16448 6 gfpga_pad_GPIO_PAD[3]
+port 6 nsew signal bidirectional
+rlabel metal3 s 200 10888 800 11008 6 gfpga_pad_GPIO_PAD[4]
+port 7 nsew signal bidirectional
+rlabel metal3 s 39200 12248 39800 12368 6 gfpga_pad_GPIO_PAD[5]
+port 8 nsew signal bidirectional
+rlabel metal2 s 13542 39200 13598 39800 6 gfpga_pad_GPIO_PAD[6]
+port 9 nsew signal bidirectional
+rlabel metal2 s 18 200 74 800 6 gfpga_pad_GPIO_PAD[7]
+port 10 nsew signal bidirectional
+rlabel metal2 s 34150 39200 34206 39800 6 pReset
+port 11 nsew signal input
+rlabel metal2 s 39302 39200 39358 39800 6 prog_clk
+port 12 nsew signal input
+rlabel metal2 s 28998 39200 29054 39800 6 top_width_0_height_0_subtile_0__pin_inpad_0_
+port 13 nsew signal output
+rlabel metal3 s 39200 1368 39800 1488 6 top_width_0_height_0_subtile_0__pin_outpad_0_
+port 14 nsew signal input
+rlabel metal2 s 25778 200 25834 800 6 top_width_0_height_0_subtile_1__pin_inpad_0_
+port 15 nsew signal output
+rlabel metal2 s 3238 39200 3294 39800 6 top_width_0_height_0_subtile_1__pin_outpad_0_
+port 16 nsew signal input
+rlabel metal2 s 36082 200 36138 800 6 top_width_0_height_0_subtile_2__pin_inpad_0_
+port 17 nsew signal output
+rlabel metal2 s 23846 39200 23902 39800 6 top_width_0_height_0_subtile_2__pin_outpad_0_
+port 18 nsew signal input
+rlabel metal2 s 5170 200 5226 800 6 top_width_0_height_0_subtile_3__pin_inpad_0_
+port 19 nsew signal output
+rlabel metal2 s 8390 39200 8446 39800 6 top_width_0_height_0_subtile_3__pin_outpad_0_
+port 20 nsew signal input
+rlabel metal3 s 39200 6808 39800 6928 6 top_width_0_height_0_subtile_4__pin_inpad_0_
+port 21 nsew signal output
+rlabel metal2 s 15474 200 15530 800 6 top_width_0_height_0_subtile_4__pin_outpad_0_
+port 22 nsew signal input
+rlabel metal3 s 39200 28568 39800 28688 6 top_width_0_height_0_subtile_5__pin_inpad_0_
+port 23 nsew signal output
+rlabel metal3 s 39200 34008 39800 34128 6 top_width_0_height_0_subtile_5__pin_outpad_0_
+port 24 nsew signal input
+rlabel metal3 s 200 27208 800 27328 6 top_width_0_height_0_subtile_6__pin_inpad_0_
+port 25 nsew signal output
+rlabel metal2 s 18694 39200 18750 39800 6 top_width_0_height_0_subtile_6__pin_outpad_0_
+port 26 nsew signal input
+rlabel metal2 s 20626 200 20682 800 6 top_width_0_height_0_subtile_7__pin_inpad_0_
+port 27 nsew signal output
+rlabel metal3 s 200 21768 800 21888 6 top_width_0_height_0_subtile_7__pin_outpad_0_
+port 28 nsew signal input
+rlabel metal3 s 200 38088 800 38208 6 vccd1
+port 29 nsew signal bidirectional
+rlabel metal4 s 4208 2128 4528 37584 6 vccd1
+port 29 nsew signal bidirectional
+rlabel metal4 s 34928 2128 35248 37584 6 vccd1
+port 29 nsew signal bidirectional
+rlabel metal3 s 39200 17688 39800 17808 6 vssd1
+port 30 nsew signal bidirectional
+rlabel metal4 s 19568 2128 19888 37584 6 vssd1
+port 30 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 40000 40000
+string LEFclass BLOCK
+string LEFview TRUE
+string GDS_END 611926
+string GDS_FILE /home/baungarten/Proyectos_caravel/FPGA_3/openlane/grid_io_bottom/runs/23_01_19_18_26/results/signoff/grid_io_bottom.magic.gds
+string GDS_START 100932
+<< end >>
+
